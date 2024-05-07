@@ -7,9 +7,9 @@ function Home({ name, capital, currency, fleg, population, languages }) {
     <>
       {/* real data comes from country data */}
       <div className="row">
-        <div className="col-md-7 rounded mx-auto mt-">
+        <div className="col-md-6 rounded mx-auto">
           <div
-            className="card m-3 shadow p-2 border border-dark"
+            className="cardshadow border border-dark"
             id="countryCard"
           >
             <img src={fleg} className="card-img-top" alt="country flag logo" />
